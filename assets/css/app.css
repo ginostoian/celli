@@ -1,0 +1,128 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    font-family: "Libre Baskerville", sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+.main-nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-bottom: 2px solid black;
+}
+
+.nav-toggles{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    color:rgb(56, 46, 46);
+}
+
+.nav-toggles a{
+    color:rgb(56, 46, 46);
+}
+
+.nav-logo{
+    width: 10rem;
+}
+
+.nav-toggle{
+    font-size: 3rem;
+}
+
+.nav-phone{
+    font-size: 2.5rem;
+}
+
+.nav-links{
+    display:none;
+}
+
+.main-content{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.hero{
+    display:flex;
+    flex-direction:column-reverse;
+
+}
+
+.main-title{
+    font-size: 2rem;
+    /* text-align: left; */
+}
+
+.accent-word1{
+    color:#265289;
+}
+
+.accent-word2{
+    color:#E76F51;
+}
+#intro{
+    text-align: center;
+}
+
+.hero-img{
+    border-bottom: 2px solid black;
+    padding-bottom: 1rem;
+}
+
+.reviews{
+    margin-top: 1rem;
+    background-color: rgb(235, 231, 231);
+    color:#265289;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.star-color{
+    color: rgb(251, 239, 0);
+    font-size: 1.8em;
+}
+
+#review-title{
+    margin-top: .4rem;
+    font-size: 1.2em;
+}
+
+.review-logo a{
+    width: 25%;
+    height:25%;
+}
+
+.review-logo a img{
+    width:80%;
+    height: 80%;
+}
+
+.review-logo{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1em;
+}

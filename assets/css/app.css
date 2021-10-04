@@ -20,6 +20,10 @@ a{
     text-decoration: none;
 }
 
+.mb-5{
+    margin-bottom: 2rem;
+}
+
 .main-nav{
     display:flex;
     justify-content: space-between;
@@ -120,7 +124,7 @@ a{
 }
 
 .reviews{
-    margin-top: -1rem;
+    margin-top: rem;
     background-color: rgb(235, 231, 231);
     color:#265289;
     padding-top: 1rem;
@@ -164,6 +168,10 @@ a{
     padding: 0.8rem
 }
 
+.start-project{
+    margin-top: 3rem;
+}
+
 .diagram{
     margin-top: 2rem;
     display:flex;
@@ -196,9 +204,85 @@ a{
 }
 
 .how-it-works{
-    margin-top: 2rem;
+    margin-top: 1rem;
+    /* background-color:#EBE7e7; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 25px;
 }
 
 .how-it-works h2{
 color: #265289;
+}
+
+.services{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.service-text{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 0.8rem;
+}
+
+.services-refurbishment img{
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: -1.5rem;
+}
+.services-refurbishment-button{
+    border:1px solid #265289;
+    background-color: #265289;
+    border-radius: 30px;
+    padding: 0.3rem 2rem;
+    color:white;
+    margin-top: ;
+   /* box-shadow: 3px 3px rgba(52, 46, 235, 0.5); */
+}
+
+.services-bathroom img{
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: -1.5rem;
+}
+
+.services-bathroom-button{
+    border:1px solid #E76F51;
+    background-color: #E76F51;
+    border-radius: 30px;
+    padding: 0.3rem 2rem;
+    color:white;
+    margin-top: ;
+   /* box-shadow: 3px 3px rgba(244, 69, 0, 0.5); */
+}
+.services-kitchen img {
+    width:5rem;
+    height: 5rem;
+    margin-bottom: -1.5rem;
+}
+.services-kitchen-button{
+    border:1px solid #265289;
+    background-color: #265289;
+    border-radius: 30px;
+    padding: 0.3rem 2rem;
+    color:white;
+    margin-top: ;
+   /* box-shadow: 3px 3px rgba(52, 46, 235, 0.5); */
+}
+
+.services-extension img {
+    width:5rem;
+    height: 5rem;
+    margin-bottom: -1.5rem;
+}
+.services-extension-button{
+    border:1px solid #E76F51;
+    background-color: #E76F51;
+    border-radius: 30px;
+    padding: 0.3rem 2rem;
+    color:white;
+    margin-top: ;
+   /* box-shadow: 3px 3px rgba(52, 46, 235, 0.5); */
 }

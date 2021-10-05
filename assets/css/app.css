@@ -286,3 +286,74 @@ color: #265289;
     margin-top: ;
    /* box-shadow: 3px 3px rgba(52, 46, 235, 0.5); */
 }
+
+footer{
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.footer-color{
+    color: #e6e6e6;
+    font-size: 0.9rem;
+}
+footer h4{
+    font-size: 1.2rem;
+}
+
+.footer-main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer-main-news{
+    margin-bottom: 3rem;
+   
+}
+.news-signup{
+    background-color: #265289;
+    border-radius: 25px;
+    padding: 0.3rem 4rem;
+    color:white;
+}
+.footer-main-links{
+    margin-bottom: 1rem;
+    display:flex;
+    flex-direction:column;
+    line-height: 1.7rem;
+    justify-content: 
+   
+}
+.footer-main-links a{
+    color: #e6e6e6;
+    line-height: 1.38rem;
+}
+
+.footer-info-legal{
+    margin-bottom: 4rem;
+}
+.footer-info-social{
+    margin-bottom: 2rem;
+}
+
+.footer-main-info{
+   line-height: 0.7rem;
+   margin-bottom: 1rem;
+}
+
+.social-icon{
+    font-size: 2.8rem;
+    color: #e6e6e6;
+}
+
+.footer-copy-left{
+    line-height: 0.7rem;
+}
+
+.footer-copy{
+    border-top: 1px solid #e6e6e6;
+}

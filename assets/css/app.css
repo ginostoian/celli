@@ -320,10 +320,18 @@ footer h4{
 }
 
 .footer-main-links{
+    width: 100%;
     margin-bottom: 1rem;
     display:flex;
-    flex-direction:column;
-    line-height: 1.7rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-links-section{
+    max-width: 30%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer-main-links a{

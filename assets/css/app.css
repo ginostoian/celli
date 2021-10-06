@@ -1,6 +1,7 @@
 *, *::before, *::after {
     box-sizing: border-box;
 }
+
 :root{
     --blue-color:#0079bb;
     --orange-color:#F08F00;
@@ -44,6 +45,12 @@ a{
     justify-content: space-between;
     align-items: center;
     width: 30%;    
+}
+
+@media screen and (min-width:400px) {
+    .nav-toggles{
+        justify-content:space-evenly;
+    }
 }
 
 .nav-logo{
@@ -121,6 +128,23 @@ a{
     display:block;
 }
 
+@media screen and (min-width:600px) {
+    .hero-cta-contact,
+    .hero-cta-quote {
+        width: 60%;
+        margin: 1.25rem auto;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .hero{
+        flex-direction: row;
+    }
+    .hero-img{
+        max-width: 50%;
+    }
+}
+
 .reviews{
     margin-top: rem;
     background-color: rgba(240,143,0, 0.8);
@@ -166,6 +190,13 @@ a{
     padding: 0.8rem
 }
 
+@media screen and (min-width: 600px) {
+    .reviews{
+        width:50%;
+        margin: 0 auto;
+    }
+}
+
 .start-project{
     margin-top: 3rem;
 }
@@ -183,9 +214,6 @@ a{
 
 .how-it-works{
     margin-top: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-radius: 25px;
 }
 
 .diagram-item{
@@ -213,14 +241,23 @@ a{
 
 }
 
+@media  screen and (min-width: 600px) {
+    .diagram-item{
+       width: 60%;
+       margin: 1rem auto;
+        padding: 1rem;
+    }
+    .how-it-works{
+        margin-top: 3rem;
+    }
+}
+
 .services{
     display:flex;
     flex-direction: column;
     align-items:center;
     margin-top: 1.5rem;
 }
-
-
 
 .service-text{
     margin-left: 1.5rem;
@@ -281,11 +318,23 @@ a{
     color:white;
 }
 
+@media screen and (min-width:800px) {
+    .service-main{
+        display:flex;
+        flex-wrap: wrap;
+    }
+   .services-bathroom,
+   .services-kitchen,
+   .services-extension,
+   .services-refurbishment{
+       width:50%;
+   } 
+}
 footer{
     padding: 1rem;
     background-color: #333;
     color: white;
-    display:inline-flex;
+    display:flex;
     flex-direction: column;
     align-items: center;
     text-align: center;

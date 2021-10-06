@@ -1,0 +1,13 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+:root{
+    --blue-color:#0079bb;
+    --orange-color:#F08F00;
+}
+
+body {
+    margin:0;
+    font-family: "Libre Baskerville", sans-serif;
+    color: #333;
+}

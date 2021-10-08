@@ -6,6 +6,10 @@
     --blue-color:#0079bb;
     --orange-color:#F08F00;
 }
+a:hover{
+    transform:scale(0.9);
+    color:red;
+}
 
 body {
     margin:0;
@@ -177,13 +181,31 @@ a{
 @media screen and (min-width:1000px) {
     .hero{
         flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        /* color: white; */
     }
 
     .hero-img{
         max-width: 50%;
+        display: none;
     }
+
     .hero-text{
-        align-self: center;
+        background-color: rgba(255,255,255,0.5);
+        margin-top: 2rem;
+        border-radius: 6px;
+        padding: 2rem;
+    }
+
+    .hero {
+        height: 60vh;
+        margin-left: -1rem;
+        margin-right: -1rem;
+        background: linear-gradient(0deg, rgba(51, 49, 50, 0.3), rgba(56, 53, 55, 0.3)), url(/assets/images/andrew-wise-LE7RC3l5EeY-unsplash.jpg); 
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
 }
 

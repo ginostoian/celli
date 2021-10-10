@@ -181,6 +181,16 @@ a{
     color: #333;    
 }
 
+.celli-logo-container{
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    opacity: 0.5;
+}
+
+.celli-logo{
+    width:30%;
+}
 
 .prev-section-text{
     margin-bottom: 2rem;
@@ -205,7 +215,58 @@ a{
 .reviews h2{
     font-size: 1rem;
     background:white;
+}
 
+
+.review-title{
+margin-left: 1.5rem;
+margin-right: 1.5rem;
+color: #333;
+text-align: left;
+/* font-size: 1rem; */
+}
+
+.review-title p,
+.prev-section-text p{
+    font-size: 0.95rem;
+}
+
+.review-container{
+    margin: 2rem auto;
+    width: 70%;
+    padding: 1rem 1rem 0 1rem;
+    background-color: whitesmoke;
+    border: 1px solid rgba(51, 49, 50, 0.3);
+    text-align: center;
+}
+
+.reviews-title{
+    margin-bottom: -1rem;
+    color:#333;
+}
+
+.reviews-author{
+    color:rgba(51, 49, 50, 0.5);
+    font-size: 0.9rem;
+}
+
+.reviews-body{
+    font-size:0.825rem;
+    text-align:justify;
+}
+
+.reviews-btns{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.work-together-btn{
+    color: var(--orange-color);
+}
+
+.projects-btn,
+.work-together-btn{
+    font-size: 0.86rem;;
 }
 
 .first-section{
@@ -221,6 +282,7 @@ display:flex;
     width: 90%;
     margin: 0 auto;
 }
+
 
 .choose-us {
     margin-bottom: 2rem;
@@ -281,6 +343,8 @@ display:flex;
 .mb-7 {
     margin-bottom: 4rem;
 }
+
+
 
 
 

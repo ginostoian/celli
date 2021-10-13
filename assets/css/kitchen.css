@@ -15,6 +15,7 @@ body {
 header{
     box-shadow: 0 1px 0 1px rgba(0,0,0,0.1);
 }
+
 img{
     max-width: 100%;
     border-radius: 2px;
@@ -24,6 +25,7 @@ a{
     color:var(--blue-color);
     text-decoration: none;
 }
+
 
 .mb-5{
     margin-bottom: 2rem;
@@ -107,7 +109,240 @@ a{
 }
 
 
+.hero {
+    color: black;
+    height: 60vh;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    background: linear-gradient(0deg, rgba(51, 49, 50, 0.3), rgba(56, 53, 55, 0.3)), url(/assets/images/home-hero.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
+.hero{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.hero-img{
+    max-width: 40%;
+    display: none;
+}
+
+.hero-text{
+    background-color: rgba(255,255,255,0.6);
+    width: 80%;
+    margin: 2rem auto;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.hero-text p{
+    font-weight: 700;
+   font-size: 1.2rem;
+}
+
+.hero-cta{
+    margin: 0.5rem 0 2rem 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-cta-contact{
+    color: black;
+    background-color: rgba(255,255,255,0.8);
+    padding: 0.7rem 4rem;
+    margin: 2rem 2rem 0 2rem;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.hero-cta-quote{
+    color: black;
+    background-color: rgba(255,255,255,0.8);
+    padding: 0.7rem 2.5rem;
+    margin: 2rem 2rem 0 2rem;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.choose-us-text{
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #333;    
+}
+
+.celli-logo-container{
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    opacity: 0.5;
+}
+
+.celli-logo{
+    width:30%;
+}
+
+.prev-section-text{
+    margin-bottom: 2rem;
+    background: whitesmoke;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.prev-section-text h3,
+.prev-section-text p,
+.choose-us-text,
+.choose-us-text-2 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+/* .prev-section{
+    font-size: 1rem;
+    background:white;
+} */
+
+.reviews h2{
+    font-size: 1rem;
+    background:white;
+}
+
+
+.review-title{
+margin-left: 1.5rem;
+margin-right: 1.5rem;
+color: #333;
+text-align: left;
+/* font-size: 1rem; */
+}
+
+.review-title p,
+.prev-section-text p{
+    font-size: 0.95rem;
+}
+
+.review-container{
+    margin: 2rem auto;
+    width: 70%;
+    padding: 1rem 1rem 0 1rem;
+    background-color: whitesmoke;
+    border: 1px solid rgba(51, 49, 50, 0.3);
+    text-align: center;
+}
+
+.reviews-title{
+    margin-bottom: -1rem;
+    color:#333;
+}
+
+.reviews-author{
+    color:rgba(51, 49, 50, 0.5);
+    font-size: 0.9rem;
+}
+
+.reviews-body{
+    font-size:0.825rem;
+    text-align:justify;
+}
+
+.reviews-btns{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.work-together-btn{
+    color: var(--orange-color);
+}
+
+.projects-btn,
+.work-together-btn{
+    font-size: 0.86rem;;
+}
+
+.first-section{
+display:flex;
+}
+
+.service-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.choose-us {
+    margin-bottom: 2rem;
+}
+
+.service-icon {
+    width: 2.6rem;
+}
+
+.service-main-design,
+.service-main-quote,
+.service-main-management,
+.service-main-materials,
+.service-main-proff {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    font-size: .75rem;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.service-main-proff {
+    margin: 1rem auto 0 auto;
+}
+
+.choose-us-subtitle {
+    /* border: 1px dashed var(--blue-color); */
+    margin: .5rem 0;
+    width: 95%;
+}
+
+.choose-us-subtitle-text {
+    padding: 1rem 0rem;
+    text-align: justify;
+    font-size: .85rem;
+    color: #333;
+}
+
+.bathroom-gallery-title {
+    padding-left: 1rem;
+    padding-right: 5rem;
+    font-size: 1rem;
+}
+
+.bathroom-gallery-text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: justify;
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+}
+
+.mb-7 {
+    margin-bottom: 4rem;
+}
 
 
 

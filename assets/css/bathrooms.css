@@ -135,9 +135,11 @@ a{
 .hero-text{
     background-color: rgba(255,255,255,0.6);
     width: 80%;
+    max-width: 500px;
     margin: 2rem auto;
     border-radius: 10px;
     padding: 1rem;
+    text-align: center;
 }
 
 .hero-text p{
@@ -207,6 +209,29 @@ a{
     margin-right: 1.5rem;
 }
 
+@media screen and (min-width: 700px) {
+    .prev-section-text {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .celli-logo {
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .prev-section-text {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+
+    .celli-logo {
+        width: 15%;
+    }
+}
+
+
 /* .prev-section{
     font-size: 1rem;
     background:white;
@@ -269,6 +294,38 @@ text-align: left;
     font-size: 0.86rem;;
 }
 
+@media screen and (min-width: 700px) {
+    .review-title {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }  
+    
+    .review-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .review-container {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .review-title {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }  
+    
+    .review-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .review-container {
+        width: 25%;
+    }
+}
+
 .first-section{
 display:flex;
 }
@@ -286,6 +343,7 @@ display:flex;
 
 .choose-us {
     margin-bottom: 2rem;
+    /* padding: 0 0; */
 }
 
 .service-icon {
@@ -313,10 +371,11 @@ display:flex;
     margin: 1rem auto 0 auto;
 }
 
+
+
 .choose-us-subtitle {
     /* border: 1px dashed var(--blue-color); */
     margin: .5rem 0;
-    width: 95%;
 }
 
 .choose-us-subtitle-text {
@@ -324,6 +383,51 @@ display:flex;
     text-align: justify;
     font-size: .85rem;
     color: #333;
+}
+
+@media screen and (min-width: 700px) {
+   
+    .service-main-design,
+    .service-main-quote,
+    .service-main-management,
+    .service-main-materials,
+    .service-main-proff {
+        width: 25%;
+}
+
+    .choose-us {
+        padding: 0 2rem;
+        color: red!important;
+    }
+
+    .choose-us-subtitle-text {
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+   
+    .service-main-design,
+    .service-main-quote,
+    .service-main-management,
+    .service-main-materials,
+    .service-main-proff {
+        width: 20%;
+}
+
+    .choose-us {
+        padding: 0 2rem;
+        color: red!important;
+    }
+
+    .choose-us-subtitle{
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .choose-us-subtitle-text{
+        text-align: center;
+    }
 }
 
 .bathroom-gallery-title {
@@ -344,8 +448,117 @@ display:flex;
     margin-bottom: 4rem;
 }
 
+@media screen and (min-width: 700px) {
+    .gallery-img {
+        width: 100%;
+        max-width: 700px;
+        margin: 0 auto;
+        display: block;
+    }
 
+    .bathroom-gallery-title {
+        font-size: 1.2rem;
+    }
 
+    .bathroom-gallery-body {
+        margin: 2rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .bathroom-gallery-title{
+        font-size: 1.3rem;
+    }
+    .bathroom-gallery-body {
+        margin: 2rem 8.3rem;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .bathroom-gallery-title{
+        font-size: 1.3rem;
+    }
+    .bathroom-gallery-body {
+        margin: 2rem 12rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .small-bath,
+    .contemporary-bath,
+    .modern-bath,
+    .industrial-bath,
+    .rustic-bath,
+    .victorian-bath{
+        display:flex;
+    }
+
+    .contemporary-bath,
+    .industrial-bath,
+    .victorian-bath{
+        flex-direction: row-reverse;
+    }
+
+    .gallery-img {
+        max-width: 50%
+    }
+    .bathroom-gallery-body{
+        max-width: 50%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .bathroom-gallery{
+        width: 80%;
+        margin: 2rem auto;
+    }
+}
+.cta-title{
+    color:aqua;
+}
+
+.cta-container{
+    padding: 2.5rem 1.5rem;
+    color: whitesmoke;
+    background: var(--blue-color);
+    text-align: center;
+}
+
+.cta-btn{
+    background: aqua;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.cta-body{
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 700px) {
+    .cta-title,
+    .cta-body {
+        width: 80%;
+        margin: 2rem auto;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .cta-title,
+    .cta-body {
+        width: 60%;
+        margin: 2rem auto;
+    }
+    
+    .cta-container{
+        padding: 3rem 1.5rem;
+    }
+}
 
 
 

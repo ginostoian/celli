@@ -237,7 +237,7 @@ a{
         height: 60vh;
         margin-left: -1rem;
         margin-right: -1rem;
-        background: linear-gradient(0deg, rgba(51, 49, 50, 0.3), rgba(56, 53, 55, 0.3)), url(/assets/images/andrew-wise-LE7RC3l5EeY-unsplash.jpg); 
+        background: linear-gradient(0deg, rgba(51, 49, 50, 0.3), rgba(56, 53, 55, 0.3)), url(../images/andrew-wise-LE7RC3l5EeY-unsplash.jpg); 
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;

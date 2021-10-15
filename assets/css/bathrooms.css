@@ -114,7 +114,7 @@ a{
     height: 60vh;
     margin-left: 0rem;
     margin-right: 0rem;
-    background: linear-gradient(0deg, rgba(51, 49, 50, 0.3), rgba(56, 53, 55, 0.3)), url(/assets/images/home-hero.jpg); 
+    background: linear-gradient(0deg, rgba(51, 49, 50, 0.3), rgba(56, 53, 55, 0.3)), url(../images/home-hero.jpg); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

@@ -114,7 +114,7 @@ a{
     height: 60vh;
     margin-left: 0rem;
     margin-right: 0rem;
-    background: linear-gradient(0deg, rgba(51, 49, 50, 0.3), rgba(56, 53, 55, 0.3)), url(/assets/images/home-hero.jpg); 
+    background: linear-gradient(0deg, rgba(51, 49, 50, 0.3), rgba(56, 53, 55, 0.3)), url(/assets/images/kitchen/home-hero.jpg); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -135,9 +135,11 @@ a{
 .hero-text{
     background-color: rgba(255,255,255,0.6);
     width: 80%;
+    max-width: 500px;
     margin: 2rem auto;
     border-radius: 10px;
     padding: 1rem;
+    text-align: center;
 }
 
 .hero-text p{
@@ -207,6 +209,29 @@ a{
     margin-right: 1.5rem;
 }
 
+@media screen and (min-width: 700px) {
+    .prev-section-text {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .celli-logo {
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .prev-section-text {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+
+    .celli-logo {
+        width: 15%;
+    }
+}
+
+
 /* .prev-section{
     font-size: 1rem;
     background:white;
@@ -269,6 +294,115 @@ text-align: left;
     font-size: 0.86rem;;
 }
 
+@media screen and (min-width: 700px) {
+    .review-title {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }  
+    
+    .review-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .review-container {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .review-title {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }  
+    
+    .review-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .review-container {
+        width: 25%;
+    }
+}
+
+
+.how-we-work {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.how-we-work-body {
+    line-height: 1.7rem;
+}
+
+.how-we-work-title {
+    font-size: 2rem;
+}
+
+.step-number {
+    font-size: 1.5rem;
+    color: var(--blue-color);
+    margin-bottom: 0;
+     line-height: 3rem;
+     font-weight: 400;
+}
+
+.step-title {
+    margin-top:0;
+    font-size: 1.1rem;
+}
+
+.step-text {
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+}
+
+@media screen and (min-width:768px) {
+    .how-we-work-steps {
+        display:flex;
+        flex-wrap: wrap;
+        gap: 5%;
+        text-align: left;
+        justify-content: space-evenly;
+    }
+
+    .step{
+        width: 45%;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .how-we-work-container{
+        display:flex;
+    }
+
+    .how-we-work-steps{
+        width: 70%;
+    }
+
+    .how-we-work-text{
+        width: 30%;
+        align-self: flex-end;
+    }
+
+    .how-we-work-title{
+        font-size: 3rem;
+        text-align: right;
+    }
+
+    .how-we-work-body{
+        text-align: right;
+    }
+
+    .step{
+        width:40%;
+    }
+}
+
 .first-section{
 display:flex;
 }
@@ -286,6 +420,7 @@ display:flex;
 
 .choose-us {
     margin-bottom: 2rem;
+    /* padding: 0 0; */
 }
 
 .service-icon {
@@ -313,10 +448,11 @@ display:flex;
     margin: 1rem auto 0 auto;
 }
 
+
+
 .choose-us-subtitle {
     /* border: 1px dashed var(--blue-color); */
     margin: .5rem 0;
-    width: 95%;
 }
 
 .choose-us-subtitle-text {
@@ -326,13 +462,58 @@ display:flex;
     color: #333;
 }
 
-.bathroom-gallery-title {
+@media screen and (min-width: 700px) {
+   
+    .service-main-design,
+    .service-main-quote,
+    .service-main-management,
+    .service-main-materials,
+    .service-main-proff {
+        width: 25%;
+}
+
+    .choose-us {
+        padding: 0 2rem;
+        color: red!important;
+    }
+
+    .choose-us-subtitle-text {
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+   
+    .service-main-design,
+    .service-main-quote,
+    .service-main-management,
+    .service-main-materials,
+    .service-main-proff {
+        width: 20%;
+}
+
+    .choose-us {
+        padding: 0 2rem;
+        color: red!important;
+    }
+
+    .choose-us-subtitle{
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .choose-us-subtitle-text{
+        text-align: center;
+    }
+}
+
+.kitchen-gallery-title {
     padding-left: 1rem;
     padding-right: 5rem;
     font-size: 1rem;
 }
 
-.bathroom-gallery-text {
+.kitchen-gallery-text {
     padding-left: 1rem;
     padding-right: 1rem;
     text-align: justify;
@@ -344,8 +525,117 @@ display:flex;
     margin-bottom: 4rem;
 }
 
+@media screen and (min-width: 700px) {
+    .gallery-img {
+        width: 100%;
+        max-width: 700px;
+        margin: 0 auto;
+        display: block;
+    }
 
+    .kitchen-gallery-title {
+        font-size: 1.2rem;
+    }
 
+    .kitchen-gallery-body {
+        margin: 2rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .kitchen-gallery-title{
+        font-size: 1.3rem;
+    }
+    .kitchen-gallery-body {
+        margin: 2rem 8.3rem;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .kitchen-gallery-title{
+        font-size: 1.3rem;
+    }
+    .kitchen-gallery-body {
+        margin: 2rem 12rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .small-kitch,
+    .contemporary-kitch,
+    .modern-kitch,
+    .minimalist-kitch,
+    .open-plan-kitch,
+    .extension-kitch{
+        display:flex;
+    }
+
+    .contemporary-kitch,
+    .minimalist-kitch,
+    .extension-kitch{
+        flex-direction: row-reverse;
+    }
+
+    .gallery-img {
+        max-width: 50%
+    }
+    .kitchen-gallery-body{
+        max-width: 50%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .kitchen-gallery{
+        width: 80%;
+        margin: 2rem auto;
+    }
+}
+.cta-title{
+    color:aqua;
+}
+
+.cta-container{
+    padding: 2.5rem 1.5rem;
+    color: whitesmoke;
+    background: var(--blue-color);
+    text-align: center;
+}
+
+.cta-btn{
+    background: aqua;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.cta-body{
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 700px) {
+    .cta-title,
+    .cta-body {
+        width: 80%;
+        margin: 2rem auto;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .cta-title,
+    .cta-body {
+        width: 60%;
+        margin: 2rem auto;
+    }
+    
+    .cta-container{
+        padding: 3rem 1.5rem;
+    }
+}
 
 
 
@@ -465,4 +755,12 @@ footer h4{
 
 .footer-copy{
     border-top: 1px solid #e6e6e6;
+}
+
+
+@media screen and (min-width: 1700px) {
+    body {
+        max-width: 70%;
+        margin: 0 auto;
+    }
 }

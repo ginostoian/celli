@@ -114,7 +114,7 @@ a{
     height: 60vh;
     margin-left: 0rem;
     margin-right: 0rem;
-    background: linear-gradient(0deg, rgba(51, 49, 50, 0.3), rgba(56, 53, 55, 0.3)), url(/assets/images/roselyn-tirado-cqAX2wlK-Yw-unsplash.jpg); 
+    background: linear-gradient(0deg, rgba(51, 49, 50, 0.3), rgba(56, 53, 55, 0.3)), url(/assets/images/home-hero.jpg); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -323,6 +323,83 @@ text-align: left;
 
     .review-container {
         width: 25%;
+    }
+}
+
+
+.how-we-work {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.how-we-work-body{
+    line-height: 1.7rem;
+}
+
+.how-we-work-title{
+    font-size: 2rem;
+}
+
+.step-number {
+    font-size: 1.5rem;
+    color: var(--blue-color);
+    margin-bottom: 0;
+     line-height: 3rem;
+     font-weight: 400;
+}
+
+.step-title{
+    margin-top:0;
+    font-size: 1.1rem;
+}
+
+.step-text{
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+}
+
+@media screen and (min-width:768px) {
+    .how-we-work-steps {
+        display:flex;
+        flex-wrap: wrap;
+        gap: 5%;
+        text-align: left;
+        justify-content: space-evenly;
+    }
+
+    .step{
+        width: 45%;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .how-we-work-container{
+        display:flex;
+    }
+
+    .how-we-work-steps{
+        width: 70%;
+    }
+
+    .how-we-work-text{
+        width: 30%;
+        align-self: flex-end;
+    }
+
+    .how-we-work-title{
+        font-size: 3rem;
+        text-align: right;
+    }
+
+    .how-we-work-body{
+        text-align: right;
+    }
+
+    .step{
+        width:40%;
     }
 }
 
@@ -678,4 +755,11 @@ footer h4{
 
 .footer-copy{
     border-top: 1px solid #e6e6e6;
+}
+
+@media screen and (min-width: 1700px) {
+    body {
+        max-width: 70%;
+        margin: 0 auto;
+    }
 }

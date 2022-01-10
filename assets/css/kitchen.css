@@ -31,6 +31,9 @@ a{
     margin-bottom: 2rem;
 }
 
+.active {
+    border-bottom: 1px solid var(--blue-color);
+}
 /* Navigation */
 
 

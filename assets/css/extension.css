@@ -1,0 +1,502 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+:root{
+    --blue-color:#0079bb;
+    --orange-color:#F08F00;
+}
+
+a:hover{
+    transform:scale(0.9);
+    color:rgba(51, 49, 50, 0.5);
+}
+body {
+    margin:0;
+    font-family: "Libre Baskerville", sans-serif;
+    color: #333;
+}
+
+header{
+    box-shadow: 0 1px 0 1px rgba(0,0,0,0.1);
+}
+
+img{
+    max-width: 100%;
+    border-radius: 2px;
+}
+
+a{
+    color:var(--blue-color);
+    text-decoration: none;
+}
+
+
+.mb-5{
+    margin-bottom: 2rem;
+}
+
+.main-nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.nav-toggles{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;    
+}
+
+.nav-logo{
+    width: 10rem;
+}
+
+.nav-toggle{
+    font-size: 3rem;
+}
+
+.nav-phone{
+    font-size: 2.5rem;
+}
+
+.nav-links,
+.nav-phone-lg{
+    display:none;
+}
+
+@media screen and (min-width:400px) {
+    .nav-toggles{
+        justify-content:space-evenly;
+    }
+}
+
+
+@media screen and (min-width:1000px) {
+    .nav-toggles{
+        display: none;
+    }
+    .nav-links{
+        display: flex;
+        width: 50%;
+        justify-content: space-evenly;
+        font-size: 1.15rem;
+       
+    }
+
+    .nav-link{
+        color:#333;
+        font-weight: 700;
+    }
+    .nav-phone-lg{
+        font-size: 1.15rem;
+        border-left: 2px solid #333;
+        height: 4rem;
+        padding-left: 4rem;
+        margin-right: 4rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .main-nav{
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 1.8rem;
+    }
+    .nav-logo{
+        width: 13.5rem;
+    }
+}
+
+.hero {
+    color: black;
+    height: 60vh;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    background: linear-gradient(0deg, rgba(51, 49, 50, 0.3), rgba(56, 53, 55, 0.3)), url(../images/extension-interior\ view.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.hero-img{
+    max-width: 40%;
+    display: none;
+}
+
+.hero-text{
+    background-color: rgba(255,255,255,0.6);
+    width: 80%;
+    max-width: 500px;
+    margin: 2rem auto;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.hero-text p{
+    font-weight: 700;
+   font-size: 1.2rem;
+}
+
+.hero-cta{
+    margin: 0.5rem 0 2rem 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-cta-contact{
+    color: black;
+    background-color: rgba(255,255,255,0.8);
+    padding: 0.7rem 4rem;
+    margin: 2rem 2rem 0 2rem;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.hero-cta-quote{
+    color: black;
+    background-color: rgba(255,255,255,0.8);
+    padding: 0.7rem 2.5rem;
+    margin: 2rem 2rem 0 2rem;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+@media screen and (min-width:600px) {
+    .hero-cta-contact,
+    .hero-cta-quote {
+        width: 60%;
+        max-width: 250px;
+        margin: 1.25rem auto;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .hero-text{
+        background-color: rgba(255,255,255,0.5);
+        margin-top: 2rem;
+        border-radius: 6px;
+        padding: 2rem;
+    }
+
+    .hero {
+        height: 60vh;
+        margin-left: -1rem;
+        margin-right: -1rem;
+        background: linear-gradient(0deg, rgba(51, 49, 50, 0.3), rgba(56, 53, 55, 0.3)), url(../images/extension-interior\ view.jpg); 
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+.choose-us-text{
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #333;    
+}
+
+.celli-logo-container{
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    opacity: 0.5;
+}
+
+.celli-logo{
+    width:30%;
+}
+
+.prev-section-text{
+    margin-bottom: 2rem;
+    background: whitesmoke;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.prev-section-text h3,
+.prev-section-text p,
+.choose-us-text,
+.choose-us-text-2 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+@media screen and (min-width: 700px) {
+    .prev-section-text {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .celli-logo {
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .prev-section-text {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+
+    .celli-logo {
+        width: 15%;
+    }
+}
+
+.first-section{
+    display:flex;
+    }
+    
+    .service-main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    
+    .choose-us {
+        margin-bottom: 2rem;
+        /* padding: 0 0; */
+    }
+    
+    .service-icon {
+        width: 2.6rem;
+    }
+    
+    .service-main-design,
+    .service-main-quote,
+    .service-main-management,
+    .service-main-materials,
+    .service-main-proff {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 45%;
+        font-size: .75rem;
+        text-align: center;
+        font-weight: 700;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .service-main-proff {
+        margin: 1rem auto 0 auto;
+    }
+    
+    
+    
+    .choose-us-subtitle {
+        /* border: 1px dashed var(--blue-color); */
+        margin: .5rem 0;
+    }
+    
+    .choose-us-subtitle-text {
+        padding: 1rem 0rem;
+        text-align: justify;
+        font-size: .85rem;
+        color: #333;
+    }
+    
+    @media screen and (min-width: 700px) {
+       
+        .service-main-design,
+        .service-main-quote,
+        .service-main-management,
+        .service-main-materials,
+        .service-main-proff {
+            width: 25%;
+    }
+    
+        .choose-us {
+            padding: 0 2rem;
+            color: red!important;
+        }
+    
+        .choose-us-subtitle-text {
+            padding: 0 2rem;
+        }
+    }
+    
+    @media screen and (min-width: 1000px) {
+       
+        .service-main-design,
+        .service-main-quote,
+        .service-main-management,
+        .service-main-materials,
+        .service-main-proff {
+            width: 20%;
+    }
+    
+        .choose-us {
+            padding: 0 2rem;
+            color: red!important;
+        }
+    
+        .choose-us-subtitle{
+            width: 85%;
+            margin: 0 auto;
+        }
+    
+        .choose-us-subtitle-text{
+            text-align: center;
+        }
+    }
+    
+    .kitchen-gallery-title {
+        padding-left: 1rem;
+        padding-right: 5rem;
+        font-size: 1rem;
+    }
+    
+    .kitchen-gallery-text {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-align: justify;
+        font-size: 0.85rem;
+        line-height: 1.2rem;
+    }
+    
+    .mb-7 {
+        margin-bottom: 4rem;
+    }
+    
+    @media screen and (min-width: 700px) {
+        .gallery-img {
+            width: 100%;
+            max-width: 700px;
+            margin: 0 auto;
+            display: block;
+        }
+    
+        .kitchen-gallery-title {
+            font-size: 1.2rem;
+        }
+    
+        .kitchen-gallery-body {
+            margin: 2rem;
+        }
+    }
+    
+    @media screen and (min-width: 1000px) {
+        .kitchen-gallery-title{
+            font-size: 1.3rem;
+        }
+        .kitchen-gallery-body {
+            margin: 2rem 8.3rem;
+        }
+    }
+    
+    @media screen and (min-width: 1100px) {
+        .kitchen-gallery-title{
+            font-size: 1.3rem;
+        }
+        .kitchen-gallery-body {
+            margin: 2rem 12rem;
+        }
+    }
+    
+    @media screen and (min-width: 1200px) {
+        .small-kitch,
+        .contemporary-kitch,
+        .modern-kitch,
+        .minimalist-kitch,
+        .open-plan-kitch,
+        .extension-kitch{
+            display:flex;
+        }
+    
+        .contemporary-kitch,
+        .minimalist-kitch,
+        .extension-kitch{
+            flex-direction: row-reverse;
+        }
+    
+        .gallery-img {
+            max-width: 50%
+        }
+        .kitchen-gallery-body{
+            max-width: 50%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 2rem;
+        }
+    }
+    
+    @media screen and (min-width: 1500px) {
+        .kitchen-gallery{
+            width: 80%;
+            margin: 2rem auto;
+        }
+    }
+    .cta-title{
+        color:aqua;
+    }
+    
+    .cta-container{
+        padding: 2.5rem 1.5rem;
+        color: whitesmoke;
+        background: var(--blue-color);
+        text-align: center;
+    }
+    
+    .cta-btn{
+        background: aqua;
+        padding: 0.5rem 1.5rem;
+        border-radius: 10px;
+        font-weight: 700;
+    }
+    
+    .cta-body{
+        margin-bottom: 2rem;
+    }
+    
+    @media screen and (min-width: 700px) {
+        .cta-title,
+        .cta-body {
+            width: 80%;
+            margin: 2rem auto;
+        }
+    }
+    
+    @media screen and (min-width: 900px) {
+        .cta-title,
+        .cta-body {
+            width: 60%;
+            margin: 2rem auto;
+        }
+        
+        .cta-container{
+            padding: 3rem 1.5rem;
+        }
+    }
+    
+
+
+
+

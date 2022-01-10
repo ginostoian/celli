@@ -750,6 +750,7 @@ footer h4{
     border-radius: 25px;
     padding: 0.5rem 6rem;
     color:white;
+    align-self: center;
 }
 
 .footer-main-links{

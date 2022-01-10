@@ -246,7 +246,7 @@ a{
 }
 
 .hero-text{
-    background-color: rgba(255,255,255,0.6);
+    background-color: rgba(255,255,255,0.75);
     width: 80%;
     max-width: 500px;
     margin: 2rem auto;
@@ -256,8 +256,8 @@ a{
 }
 
 .hero-text p{
-    font-weight: 700;
-   font-size: 1.2rem;
+    font-weight: 400;
+    font-size: 1.15rem;
 }
 
 .hero-cta{
@@ -270,9 +270,9 @@ a{
 .hero-cta-contact{
     color: black;
     background-color: rgba(255,255,255,0.8);
-    padding: 0.7rem 4rem;
+    padding: .85rem 4rem;
     margin: 2rem 2rem 0 2rem;
-    border-radius: 10px;
+    border-radius: 15px;
     text-align: center;
     font-weight: 700;
     font-size: 1rem;
@@ -281,9 +281,9 @@ a{
 .hero-cta-quote{
     color: black;
     background-color: rgba(255,255,255,0.8);
-    padding: 0.7rem 2.5rem;
+    padding: .85rem 2.5rem;
     margin: 2rem 2rem 0 2rem;
-    border-radius: 10px;
+    border-radius: 15px;
     text-align: center;
     font-weight: 700;
     font-size: 1rem;
@@ -300,7 +300,7 @@ a{
 
 @media screen and (min-width:1000px) {
     .hero-text{
-        background-color: rgba(255,255,255,0.5);
+        background-color: rgba(255,255,255,0.75);
         margin-top: 2rem;
         border-radius: 6px;
         /* padding: 2rem; */

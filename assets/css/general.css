@@ -98,8 +98,44 @@ a{
     color: black;
 }
 
+.nav-visible > * {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: black;
+}
+
 .nav-phone-lg{
     display:none;
+}
+
+.nav-dropdown {
+    position: relative;
+}
+
+.services-dropdown {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 1.3em;
+    /* left: 2em; */
+    padding: 2em;
+    min-width: 15em;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.nav-links.nav-visible .services-dropdown {
+    top: 1.75em;
+    left: -6em;
+    font-size: .9rem;
+}
+
+.services-dropdown > a {
+    margin-bottom: 1em;
+}
+
+.nav-dropdown:hover .services-dropdown {
+    display: flex;
 }
 
 @media screen and (min-width:400px) {

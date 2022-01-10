@@ -17,6 +17,8 @@
 
     <link rel="stylesheet" href="assets/css/app.css">
 
+    <script src="assets/js/nav.js" defer></script>
+
 </head>
 
 <body>
@@ -26,7 +28,7 @@
                 <img src="./assets/images/logo/svg/Color logo - no background.svg"
                     alt="logo for Celli Design and Build">
             </div>
-            <div class="nav-links">
+            <div id="primary-navigation" data-visible="false" class="nav-links">
                 <a href="#" class="nav-link">Portfolio</a>
                 <a href="#service-jump" class="nav-link">Services</a>
                 <a href="#" class="nav-link">Blog</a>
@@ -41,7 +43,7 @@
                     <a href="tel:07922391591"><i class="bx bxs-phone accent-word1"></i></a>
                 </div>
 
-                <div class="nav-toggle">
+                <div class="nav-toggle mobile-nav-toggle" aria-expanded="false" aria-controls="primary-navigation">
                     <i class="bx bx-menu"></i>
                 </div>
             </div>
@@ -52,7 +54,8 @@
         <div class="hero">
             <div class="hero-text">
                 <h1 class="main-title">
-                    <span class="accent-word1">Design</span> &amp; <span class="accent-word2">Build</span> experts in
+                    <span class="accent-word1">Design</span> &amp; <span class="accent-word2">Build</span> experts
+                    in
                     <span class="accent-word1">London</span>
                 </h1>
                 <p id="intro">
@@ -120,7 +123,8 @@
                     </h4>
                     <p class="reviews-author"> Fray - Islington</p>
                     <p class="reviews-body">
-                        Celi and his entire team were fantastic throughout. they were the highest level of work we have
+                        Celi and his entire team were fantastic throughout. they were the highest level of work we
+                        have
                         had
                         over a number of different contractors. Celi was clear and detailed on the cost breakdown,
                         timings
@@ -137,10 +141,13 @@
                     </h4>
                     <p class="reviews-author"> Graeme - Canary Wharf</p>
                     <p class="reviews-body">
-                        Celli and the team did a phenomenal job. He came round personally to scope the work to provide a
-                        quote and was very detailed about what would need to be done. This gave me confidence that his
+                        Celli and the team did a phenomenal job. He came round personally to scope the work to
+                        provide a
+                        quote and was very detailed about what would need to be done. This gave me confidence that
+                        his
                         quote
-                        was properly thought out and they’d be no nasty surprises at the end of the job and additional
+                        was properly thought out and they’d be no nasty surprises at the end of the job and
+                        additional
                         costs
                         <a target="_blank"
                             href="https://www.houzz.com/pro/cellidesignbuild/celli-design-build">(...)</a>
@@ -156,8 +163,10 @@
                     </h4>
                     <p class="reviews-author"> Alice - SOHO</p>
                     <p class="reviews-body">
-                        Celli remodelled my bathroom, and completed the job to a high standard. His approach to customer
-                        service is refreshing: he's communicative and honest. When I wasn't happy with something he'd
+                        Celli remodelled my bathroom, and completed the job to a high standard. His approach to
+                        customer
+                        service is refreshing: he's communicative and honest. When I wasn't happy with something
+                        he'd
                         always
                         <a target="_blank" href="https://g.page/r/CaGIVAg_unOVEAE">(...)</a>
                     </p>
@@ -200,7 +209,8 @@
                     <h3>
                         Bathroom Renovation
                     </h3>
-                    <a class="services-bathroom-button" href="https://forms.gle/uyGTWuARK7gwsP2c9">Fill out the form</a>
+                    <a class="services-bathroom-button" href="https://forms.gle/uyGTWuARK7gwsP2c9">Fill out
+                        the form</a>
                     <p><a class="serv-bath-link accent-word2" href="bathrooms.html"> Learn More</a></p>
                 </div>
                 <div class="services-kitchen mb-5">
@@ -208,7 +218,8 @@
                     <h3>
                         Kitchen Renovation
                     </h3>
-                    <a class="services-kitchen-button" href="https://forms.gle/q681T6MWvWRAmpFr9"> Fill out the form</a>
+                    <a class="services-kitchen-button" href="https://forms.gle/q681T6MWvWRAmpFr9"> Fill out
+                        the form</a>
                     <p><a class="serv-kitch-link accent-word1" href="./kitchen.html"> Learn More</a></p>
                 </div>
                 <div class="services-extension mb-5">
@@ -235,7 +246,8 @@
             <div class="how-we-work-container">
                 <div class="how-we-work-text">
                     <h2 class="how-we-work-title">How Our Service Works</h2>
-                    <p class="how-we-work-body">From design to refurbishment you can rest assured that your experience
+                    <p class="how-we-work-body">From design to refurbishment you can rest assured that your
+                        experience
                         with Celli Design & Build will be second to none.</p>
                 </div>
 
@@ -243,14 +255,16 @@
                     <div class="step">
                         <h3 class="step-number">1.</h3>
                         <h4 class="step-title">Book an appointment</h4>
-                        <p class="step-text">Use our quick and easy online form to book a date which suits you best. One
+                        <p class="step-text">Use our quick and easy online form to book a date which suits you best.
+                            One
                             of our experienced operators will be in touch to finalise your appointment.</p>
                     </div>
 
                     <div class="step">
                         <h3 class="step-number">2.</h3>
                         <h4 class="step-title">Receive your free & transparent quote</h4>
-                        <p class="step-text">Based on your preferences discussed during the initial meeting, our team of
+                        <p class="step-text">Based on your preferences discussed during the initial meeting, our
+                            team of
                             expert estimators will craft a clear and transparent quote. </p>
                     </div>
 
@@ -264,7 +278,8 @@
                     <div class="step">
                         <h3 class="step-number">4.</h3>
                         <h4 class="step-title">Enjoy your new kitchen + a 2 year guarantee</h4>
-                        <p class="step-text">Now it's time to sit back, relax and marvel at your stunning new kitchen.
+                        <p class="step-text">Now it's time to sit back, relax and marvel at your stunning new
+                            kitchen.
                             It really is that simple, so what are you waiting for? </p>
                     </div>
                 </div>
@@ -279,7 +294,7 @@
             </p>
             <div class="celli-logo-container">
                 <img class="celli-logo" src="./assets/images/logo/png/black-logo.png" loading="lazy"
-                    alt="clli design logo">
+                    alt="celli design logo">
             </div>
         </section>
 
@@ -290,14 +305,16 @@
                 <div class="kitchen-gallery-body">
                     <h3 class="kitchen-gallery-title">Bathroom renovation & design</h3>
                     <p class="kitchen-gallery-text">
-                        Renovating your bathroom is not an easy decision to make but it has many advantages. One of the
+                        Renovating your bathroom is not an easy decision to make but it has many advantages. One of
+                        the
                         most important ones is that it improves your comfort and enjoyment of your home. Another big
-                        advantage to consider is that, if done properly, a bathroom renovation adds huge value to your
+                        advantage to consider is that, if done properly, a bathroom renovation adds huge value to
+                        your
                         home.
 
                     </p>
                     <p class="reviews-btns"><a class="projects-btn main-form-bath-btn"
-                            href="https://forms.gle/RRzPpGhtXSA5SveG9">Complete the form</a><a
+                            href="https://forms.gle/RRzPpGhtXSA5SveG9" target="_blank">Fill in the form</a><a
                             class="work-together-btn main-form-bath-btn" href="#">Let's work
                             together</a>
                     </p>
@@ -308,17 +325,20 @@
                 <img src="./assets/images/kitchen/contemporary-kitchen.jpg" alt="" loading="lazy" class="gallery-img">
                 <div class="kitchen-gallery-body">
                     <h3 class="kitchen-gallery-title">Your perfect kitchen</h3>
-                    <p class="kitchen-gallery-text">Looking to update your kitchen? The latest kitchen trends looks to
+                    <p class="kitchen-gallery-text">Looking to update your kitchen? The latest kitchen trends looks
+                        to
                         benefit from minimal cutter and maximum efficiency.
                         Kitchen layout is carefully considered to make sure every inch of the kitchen is utilised
-                        Investing in any element of the kitchen can prove invaluable, for both while you live in your
+                        Investing in any element of the kitchen can prove invaluable, for both while you live in
+                        your
                         home but also when it comes to adding value to resale
 
-                        Be inspired to make the right style choices for your home with a look at our section - kitchen
+                        Be inspired to make the right style choices for your home with a look at our section -
+                        kitchen
                         renovation or you can book an appointment and get in touch with our designers
                     </p>
                     <p class="reviews-btns"><a class="projects-btn main-form-bath-btn"
-                            href="https://forms.gle/qHdjjpxJmJujEgFt6">Complete the form</a><a
+                            href="https://forms.gle/qHdjjpxJmJujEgFt6" target="_blank">Fill in the form</a><a
                             class="work-together-btn main-form-bath-btn" href="#">Let's work
                             together</a>
                     </p>
@@ -334,15 +354,19 @@
                         A living room is one of the most used rooms in the house, so taking the time to really think
                         about how you want the room to look and feel is really important. You want to create a space
                         that feels inviting and cozy, but also reflects your personal style.
-                        While the heart of your home is thought to be the kitchen, isn’t it fair to say the living room
+                        While the heart of your home is thought to be the kitchen, isn’t it fair to say the living
+                        room
                         is where we spend the most time relaxing?
-                        It’s therefore key to create a space that’s both comforting and practical in equal measure. Our
-                        experts here, at celli design and build know exactly how to create a comfortable space where the
+                        It’s therefore key to create a space that’s both comforting and practical in equal measure.
+                        Our
+                        experts here, at celli design and build know exactly how to create a comfortable space where
+                        the
                         whole household cand relax,
 
                     </p>
-                    <p class="reviews-btns"><a class="projects-btn main-form-bath-btn" href="#">Complete the form</a><a
-                            class="work-together-btn main-form-bath-btn" href="#">Let's work
+                    <p class="reviews-btns"><a class="projects-btn main-form-bath-btn"
+                            href="https://forms.gle/qHdjjpxJmJujEgFt6" target="_blank">Fill in
+                            the form</a><a class="work-together-btn main-form-bath-btn" href="#">Let's work
                             together</a>
                     </p>
                 </div>
@@ -353,13 +377,16 @@
                     class="gallery-img bathroom-gallery-img">
                 <div class="kitchen-gallery-body">
                     <h3 class="kitchen-gallery-title">Bedroom renovation</h3>
-                    <p class="kitchen-gallery-text">The bedroom is not like other areas in the home. It is a place of
-                        rest and privacy where it’s important to feel comfortable. For this reason, the room's layout
+                    <p class="kitchen-gallery-text">The bedroom is not like other areas in the home. It is a place
+                        of
+                        rest and privacy where it’s important to feel comfortable. For this reason, the room's
+                        layout
                         and decor are important and redesigning and personalizing this room can help one feel even
                         happier in their home
                     </p>
-                    <p class="reviews-btns"><a class="projects-btn main-form-bath-btn" href="#">Complete the form</a><a
-                            class="work-together-btn main-form-bath-btn" href="#">Let's work
+                    <p class="reviews-btns"><a class="projects-btn main-form-bath-btn"
+                            href="https://forms.gle/qHdjjpxJmJujEgFt6" target="_blank">Fill in
+                            the form</a><a class="work-together-btn main-form-bath-btn" href="#">Let's work
                             together</a>
                     </p>
                 </div>
@@ -369,12 +396,15 @@
                 <img src="./assets/images/kitchen/open-plan-kitchen.jpg" alt="" loading="lazy" class="gallery-img">
                 <div class="kitchen-gallery-body">
                     <h3 class="kitchen-gallery-title">Open plan kitchen extension</h3>
-                    <p class="kitchen-gallery-text">Your extension project is done and you don't know what to use the
+                    <p class="kitchen-gallery-text">Your extension project is done and you don't know what to use
+                        the
                         space for. How about moving the hub of the house in here? Kitchens nowadays are not just for
-                        cooking. Having a kitchen in an extension enables the space to be a place for living, dining,
+                        cooking. Having a kitchen in an extension enables the space to be a place for living,
+                        dining,
                         socializing and even doing homework with your little ones. </p>
-                    <p class="reviews-btns"><a class="projects-btn main-form-bath-btn" href="#">Complete the form</a><a
-                            class="work-together-btn main-form-bath-btn" href="#">Let's work
+                    <p class="reviews-btns"><a class="projects-btn main-form-bath-btn"
+                            href="https://forms.gle/qHdjjpxJmJujEgFt6" target="_blank">Fill in
+                            the form</a><a class="work-together-btn main-form-bath-btn" href="#">Let's work
                             together</a>
                     </p>
                 </div>
@@ -386,18 +416,23 @@
                 <div class="kitchen-gallery-body">
                     <h3 class="kitchen-gallery-title">Loft conversion</h3>
                     <p class="kitchen-gallery-text">
-                        The type of loft conversions we recommend for your property will depend on a number of factors -
-                        property style, roof heights, available space, conservation area, local planning regulations,
+                        The type of loft conversions we recommend for your property will depend on a number of
+                        factors -
+                        property style, roof heights, available space, conservation area, local planning
+                        regulations,
                         your budget and needs.
-                        Think about how would like to use it, perhaps and extra bedroom with en-suite bathroom, a space
+                        Think about how would like to use it, perhaps and extra bedroom with en-suite bathroom, a
+                        space
                         for relax and study, or maybe a den or playroom for your growing children
-                        We understand there are many different factors that will result in witch type of loft conversion
+                        We understand there are many different factors that will result in witch type of loft
+                        conversion
                         you will ultimately choose. Of course, the type of property you own will be a big factor in
                         this, but there are also a variety of other things like individual taste and lifestyle
                         requirements
 
                     </p>
-                    <p class="reviews-btns"><a class="projects-btn main-form-bath-btn" href="#">Complete the form</a><a
+                    <p class="reviews-btns"><a class="projects-btn main-form-bath-btn"
+                            href="https://forms.gle/qHdjjpxJmJujEgFt6">Fill in the form</a><a
                             class="work-together-btn main-form-bath-btn" href="#">Let's work
                             together</a>
                     </p>
@@ -412,7 +447,8 @@
             <div class="footer-main-news">
                 <h4>Sign up to our newsletter</h4>
                 <p class="footer-color">You'll receive inspirational ideas and advice for your home renovation</p>
-                <a class="news-signup" href="#">Sign up</a>
+                <a class="news-signup" href="newsletter.html" target="_blank">Sign
+                    up</a>
             </div>
             <div class="footer-main-links">
                 <div class="footer-links-section">

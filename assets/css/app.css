@@ -544,6 +544,7 @@ a{
     border-radius: 30px;
     padding: 0.3rem 2rem;
     color:white;
+    transition: .2s;
 }
 
 .services-bathroom img{
@@ -557,6 +558,7 @@ a{
     border-radius: 30px;
     padding: 0.3rem 2rem;
     color:white;
+    transition: .2s;
 }
 
 .services-kitchen img {
@@ -569,6 +571,7 @@ a{
     border-radius: 30px;
     padding: 0.3rem 2rem;
     color:white;
+    transition: .2s;
 }
 
 .services-extension img {
@@ -581,6 +584,7 @@ a{
     border-radius: 30px;
     padding: 0.3rem 2rem;
     color:white;
+    transition: .2s;
 }
 
 .services-refurbishment-button:hover,
@@ -634,6 +638,23 @@ a{
     margin-right: 1.5rem;
     text-align: left;
 }
+
+.c2a-btn {
+    display: inline-block;
+    background-color: var(--blue-color);
+    color: #fff;
+    padding: .75em 1.5em;
+    margin-top: 2em;
+    border-radius: 20px;
+    transition: .2s;
+}
+
+.c2a-btn:hover,
+.c2a-btn:focus {
+    background-color: var(--orange-color);
+    color: #fff;
+}
+
 
 @media screen and (min-width: 700px) {
     .prev-section-text {

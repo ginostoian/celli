@@ -282,6 +282,22 @@ a{
     margin-right: 1.5rem;
 }
 
+.c2a-btn {
+    display: inline-block;
+    background-color: var(--blue-color);
+    color: #fff;
+    padding: .75em 1.5em;
+    margin-top: 2em;
+    margin-left: 1em;
+    border-radius: 20px;
+    transition: .2s;
+}
+
+.c2a-btn:hover,
+.c2a-btn:focus {
+    background-color: var(--orange-color);
+}
+
 @media screen and (min-width: 700px) {
     .prev-section-text {
         padding-left: 2rem;

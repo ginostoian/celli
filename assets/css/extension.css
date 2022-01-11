@@ -124,6 +124,14 @@ a{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
 }
 
+@supports ((-webkit-backdrop-filter: blur(1.5em)) or (backdrop-filter: 1.5em)) {
+    .nav-links {
+      background-color: rgba(255, 255, 255, .5);
+      -webkit-backdrop-filter: blur(1.5em);
+      backdrop-filter: blur(1.5em);
+    }
+  }
+
 .nav-links.nav-visible .services-dropdown {
     top: 1.75em;
     left: -6em;

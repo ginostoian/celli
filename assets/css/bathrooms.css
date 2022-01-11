@@ -84,6 +84,14 @@ a{
     backdrop-filter: blur(1.5rem);
 }
 
+@supports ((-webkit-backdrop-filter: blur(1.5em)) or (backdrop-filter: 1.5em)) {
+    .nav-links {
+      background-color: rgba(255, 255, 255, .5);
+      -webkit-backdrop-filter: blur(1.5em);
+      backdrop-filter: blur(1.5em);
+    }
+  }
+
 .nav-visible {
     transform: translateX(50%)
 }

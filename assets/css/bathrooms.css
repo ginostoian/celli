@@ -24,6 +24,12 @@ img{
 a{
     color:var(--blue-color);
     text-decoration: none;
+    transition: .3s
+}
+
+a:hover,
+a:focus {
+    color: var(--blue-color);
 }
 
 
@@ -33,6 +39,10 @@ a{
 
 .active {
     border-bottom: 1px solid var(--blue-color);
+}
+
+.accent-word {
+    color: var(--blue-color);
 }
 
 /* Navigation */
@@ -214,7 +224,7 @@ a{
 }
 
 .hero-text{
-    background-color: rgba(255,255,255,0.6);
+    background-color: rgba(255,255,255,0.75);
     width: 80%;
     max-width: 500px;
     margin: 2rem auto;
@@ -223,9 +233,9 @@ a{
     text-align: center;
 }
 
-.hero-text p{
-    font-weight: 700;
-   font-size: 1.2rem;
+.main-subtitle {
+    font-weight: 400;
+    font-size: 1.2rem;
 }
 
 .hero-cta{
@@ -304,6 +314,7 @@ a{
 .c2a-btn:hover,
 .c2a-btn:focus {
     background-color: var(--orange-color);
+    color: #e6e6e6;
 }
 
 @media screen and (min-width: 700px) {

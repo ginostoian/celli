@@ -6,10 +6,7 @@
     --orange-color:#F08F00;
 }
 
-a:hover{
-    transform:scale(0.9);
-    color:rgba(51, 49, 50, 0.5);
-}
+
 body {
     margin:0;
     font-family: "Libre Baskerville", sans-serif;
@@ -28,6 +25,12 @@ img{
 a{
     color:var(--blue-color);
     text-decoration: none;
+    transition: color .3s;
+}
+
+a:hover, 
+a:focus {
+    color: var(--blue-color);
 }
 
 

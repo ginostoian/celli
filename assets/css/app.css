@@ -970,6 +970,12 @@ footer h4{
 .social-icon{
     font-size: 2.8rem;
     color: #e6e6e6;
+    transition: 0.3s;
+}
+
+.social-icon:hover,
+.social-icon:focus {
+    color: var(--blue-color);
 }
 
 .footer-copy-left{

@@ -707,3 +707,51 @@ a:focus {
             margin: 0 auto;
         }
     }
+
+
+    /* In construction - To be deleted */
+
+    /* Under construction */
+
+.under-construction {
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    width: 90%;
+}
+
+.text {
+    margin-bottom: 2.5rem;
+}
+
+.under-construction h1 {
+    font-size: 1.8em;
+}
+
+.under-construction p {
+    line-height: 1.6em;
+}
+
+.under-construction a {
+    display: inline-block;
+    background-color: var(--blue-color);
+    padding: 1em 2em;
+    border-radius: 25px;
+    color:rgba(255, 255, 255, 1);
+    transition: background-color .3s;
+}
+
+.under-construction a:hover,
+.under-construction a:focus {
+    background-color: pink;
+}
+
+@media (min-width: 985px) {
+    .under-construction {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}

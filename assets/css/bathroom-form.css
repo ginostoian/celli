@@ -11,11 +11,16 @@ a:hover{
     color:rgba(51, 49, 50, 0.7);
 }
 
+html {
+    height: 100%;
+}
+
 body {
     margin:0;
     font-family: "Libre Baskerville", sans-serif;
     color: #333;
     overflow-x: hidden;
+    height: 100%;
 }
 
 header{
@@ -202,7 +207,13 @@ main {
 }
 
 iframe {
-    overflow: hidden;
+    /* position: absolute; */
+    height: 100%;
+}
+@media (max-width: 500px) {
+    main {
+        height: 5000px;
+    }
 }
 
 

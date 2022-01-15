@@ -201,6 +201,10 @@ main {
     height: 4700px;
 }
 
+iframe {
+    overflow: hidden;
+}
+
 
 footer{
     padding: 1rem;

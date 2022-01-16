@@ -192,50 +192,50 @@ a{
     }
 }
 
-/* Under construction */
+/* Guarantee */
 
-.under-construction {
+.guarantee-container {
     display: flex;
     flex-direction: column;
-    margin-inline: auto;
     width: 90%;
+    max-width: 750px;
+    margin-inline: auto;
+    margin-block: 2rem;
 }
 
-.text {
-    margin-bottom: 2.5rem;
+.guarantee-header {
+    /* text-align: center; */
+    color:rgba(51, 49, 50, 0.95);
+    margin-bottom: 2rem;
 }
 
-.under-construction h1 {
-    font-size: 1.8em;
+.guarantee-title {
+    color: var(--blue-color);
 }
 
-.under-construction p {
-    line-height: 1.6em;
+.guarantee-title {
+    font-size: 1.25rem;
 }
 
-.under-construction a {
-    display: inline-block;
-    background-color: var(--blue-color);
-    padding: 1em 2em;
-    border-radius: 25px;
-    color:rgba(255, 255, 255, 1);
-    transition: background-color .3s;
+.guarantee-description,
+.guarantee-text {
+    line-height: 1.5em;
 }
 
-.under-construction a:hover,
-.under-construction a:focus {
-    background-color: pink;
+.guarantee-text {
+    padding-left: 1.3rem;
+    margin-bottom: 2rem;
 }
 
-@media (min-width: 985px) {
-    .under-construction {
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-
-
+.guarantee-conditions {
+    margin-left: 1.5rem;
 }
+
+.guarantee-condition {
+    font-size: 0.85rem;
+    margin-bottom: .8rem;
+}
+
 
 /* Footer */
 

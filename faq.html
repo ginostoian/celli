@@ -5,19 +5,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Celli Design & Build </title>
+    <meta name="language" content="EN" />
+    <meta name="keywords"
+        content="faq, celli, london, renovation, refurbishment, central london, bathroom renovation" />
+    <meta name="description"
+        content="Frequently asked questions answered by Celli Design & Build. If the answer to your questions is not here, please feel free to connect with us and we will gladly respond to your inquiry as soon as possible. Celli Design & Build is the best renovation company in London... probably!" />
+    <meta name="copyright" content="Celli Design & Build" />
+    <meta name="author" content="Gino Stoian, ginostoian@gmail.com" />
+
+    <title>Frequently asked question | Celli Design & Build | London's best renovation company, probably.</title>
 
     <!-- BOX ICONS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-
+    <link rel="preload" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- async CSS -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+
+    <!-- no-JS fallback -->
+    <noscript>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
+            rel="stylesheet" type="text/css">
+    </noscript>
 
     <link rel="stylesheet" href="assets/css/faq.css">
 
     <script src="assets/js/nav.js" defer></script>
+    <script src="assets/js/faq.js" defer></script>
 
 </head>
 
@@ -43,7 +62,7 @@
                 </div>
                 <a href="blog.html" class="nav-link">Blog</a>
                 <a href="contact.html" class="nav-link">Contact</a>
-                <a href="#" class="nav-link nav-button">Get a Quote</a>
+                <a href="contact.html" class="nav-link nav-button">Get a Quote</a>
             </div>
             <div class="nav-phone-lg">
                 <a class="nav-link" href="tel:07922391591">07922.391.591 </a>
@@ -60,15 +79,131 @@
         </nav>
     </header>
 
-    <main class="under-construction">
-        <div class="text">
-            <h1>Under Construction. Ironic, huh?</h1>
-            <p>All you questions will be answered. After this page will be developed.</p>
-            <a href="/contact.html">Contact us</a>
+    <main class="faq-container">
+        <h1 class="main-title">Frequently Asked Questions</h1>
+        <p class="main-subtitle">Press the chevron icon on the right of the question to reveal the answer.</p>
+
+        <div class="faq active">
+            <h3 class="faq-title">Who is Celli Design & Build?</h3>
+            <p class="faq-answer">We are a construction and interior renovation and design company. We have been working
+                in London for over 10 years and have established experience in the field.</p>
+            <button class="faq-toggle">
+                <i class='bx bx-chevron-down'></i>
+                <i class='bx bx-x'></i>
+            </button>
         </div>
-        <div>
-            <img src="./assets/images/under_construction.jpg" alt="animation of a website being built">
+
+        <div class="faq">
+            <h3 class="faq-title">What type of projects do you undertake?</h3>
+            <div class="faq-answer">
+                <p>Here is a list the projects we undertake, although it is not complete:</p>
+                <ul>
+                    <a href="bathroom-form.html">
+                        <li>Bathroom design</li>
+                    </a>
+                    <a href="bathroom-form.html">
+                        <li>Bathroom renovation</li>
+                    </a>
+                    <a href="kitchen.html">
+                        <li>Kitchen renovation</li>
+                    </a>
+                    <a href="general.html">
+                        <li>Full house refurbishment</li>
+                    </a>
+                    <a href="extension.html">
+                        <li>Extensions</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>Loft conversions</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>Boiler installation</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>Electrical rewiring</li>
+                    </a>
+                </ul>
+            </div>
+            <button class="faq-toggle">
+                <i class='bx bx-chevron-down'></i>
+                <i class='bx bx-x'></i>
+            </button>
         </div>
+
+        <div class="faq">
+            <h3 class="faq-title">Do you offer any guarantees?</h3>
+            <p class="faq-answer">We offer a workmanship guarantee, between 1 year and 2 years, on almost all of our
+                projects. To read more about our guarantee and what is covered by it please <a
+                    href="guarantee.html">click
+                    here.</a></p>
+            <button class="faq-toggle">
+                <i class='bx bx-chevron-down'></i>
+                <i class='bx bx-x'></i>
+            </button>
+        </div>
+
+        <div class="faq">
+            <h3 class="faq-title">Do I have to pay for bathroom design if I already know what I want?</h3>
+            <p class="faq-answer">No. Bathroom design is a separate service from the Bathroom renovation service and is
+                optional.</p>
+            <button class="faq-toggle">
+                <i class='bx bx-chevron-down'></i>
+                <i class='bx bx-x'></i>
+            </button>
+        </div>
+
+        <div class="faq">
+            <h3 class="faq-title">Do you offer free quotes?</h3>
+            <p class="faq-answer">Yes. Our quotes are free of charge and do not carry any obligation on your part.</p>
+            <button class="faq-toggle">
+                <i class='bx bx-chevron-down'></i>
+                <i class='bx bx-x'></i>
+            </button>
+        </div>
+
+        <div class="faq">
+            <h3 class="faq-title">How are you going to quote for my project?</h3>
+            <p class="faq-answer">Quoting is different and depends on the type of project. To quote for a full home
+                renovation, one of our estimators will visit your home in order to collect all the info. If you're
+                looking for a bathroom renovation, we can quote based on the form found <a
+                    href="bathroom-form.html">here</a></p>
+            <button class="faq-toggle">
+                <i class='bx bx-chevron-down'></i>
+                <i class='bx bx-x'></i>
+            </button>
+        </div>
+
+        <div class="faq">
+            <h3 class="faq-title">How long will my project take?</h3>
+            <p class="faq-answer">The time of completion is different from project to project depending on the type of
+                project and the complexity of it. If you need a more specific answer, please contact us by <a
+                    href="contact.html">clicking here.</a></p>
+            <button class="faq-toggle">
+                <i class='bx bx-chevron-down'></i>
+                <i class='bx bx-x'></i>
+            </button>
+        </div>
+
+        <div class="faq">
+            <h3 class="faq-title">Will I have to manage the project myself?</h3>
+            <p class="faq-answer">No. We take care of every part of the project and you will be assigned a project
+                manager that will manage the project.</p>
+            <button class="faq-toggle">
+                <i class='bx bx-chevron-down'></i>
+                <i class='bx bx-x'></i>
+            </button>
+        </div>
+
+        <div class="faq">
+            <h3 class="faq-title">Do you offer refferal awards?</h3>
+            <p class="faq-answer">Yes. For every client reffered by you that we end up working with, you will win a
+                prize. Please <a href="contact.html">contact us</a> to find out more about this program. </p>
+            <button class="faq-toggle">
+                <i class='bx bx-chevron-down'></i>
+                <i class='bx bx-x'></i>
+            </button>
+        </div>
+
     </main>
 
     <footer>
@@ -93,7 +228,8 @@
                 </div>
                 <div class="footer-links-section">
                     <a href="guarantee.html">Guarrantee</a>
-                    <a href="#">Reviews</a>
+                    <a
+                        href="https://www.houzz.co.uk/professionals/design-and-build/celli-design-and-build-pfvwgb-pf~60790866">Reviews</a>
                     <a href="contact.html">Contact</a>
                 </div>
             </div>

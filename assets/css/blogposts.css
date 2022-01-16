@@ -210,10 +210,10 @@ a{
     height: 40vh;
     justify-content: space-between;
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 .hero-right {
-    background: linear-gradient(0deg, rgba(51, 49, 50, 0.3), rgba(56, 53, 55, 0.3)), url(../images/blog/blog-home.webp); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -272,7 +272,7 @@ a{
     }
 
     .main-title {
-        font-size: 3.4rem;
+        font-size: 2.5rem;
     }
 
     .main-subtitle {
@@ -280,6 +280,29 @@ a{
         margin-bottom: 2rem;
     }
 }
+
+/* Article */
+
+.article-body {
+    width: 90%;
+    max-width: 700px;
+    line-height: 1.5rem;
+    margin-bottom: 4rem;
+    color: #333;
+    text-align: justify;
+}
+
+.article-subtitle {
+    color: var(--blue-color);
+}
+
+.article-highlight {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: .5rem .5rem;
+    background-color: wheat;
+}
+
 
 /* individual blog post */
 
